@@ -1,0 +1,139 @@
+
+
+
+.video-container{
+    width:100%;
+    padding: 0px;
+    min-height: 100%;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    align-items:center;
+    background-color: black;
+    /* mix-blend-mode: overlay; */
+
+
+}
+
+
+
+.video-container > h1{
+    color:white;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20%;
+    padding-left:10px;
+    font-size:5rem ;
+    transition: 1s;
+    /* background-color: rgb(0, 0, 252);
+    padding:20px; */
+}
+.video-container > p{
+    color:white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 25%;
+    max-width: 700px;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top:20px;
+}
+.video-container > button{
+    color:white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 30%;
+    background-color: rgba(0, 0, 0,.2);
+    padding: 8px;
+    font-size: 15px;
+    border:1px solid white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   transition: 1s;
+    
+}
+
+.video-container > button:hover{
+    background-color: white;
+    color: black;
+}
+
+.video-container > video{
+    width: 100%;
+    object-fit: cover;
+    opacity: .3;
+    margin-top: 75px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:960px){
+    .video-container > h1{
+        margin-top:25%;
+        font-size: 70px;
+    }
+
+    .video-container > p{
+        font-size: 22px;
+        margin-top:26%;
+
+    }
+
+    .video-container >button{
+        margin-top: 35%;
+    }
+
+}
+@media screen and (max-width:768px){
+    .video-container > h1{
+        margin-top:30%;
+        font-size: 50px;
+    
+        
+    }
+
+    .video-container > p{
+        font-size: 22px;
+        margin-top:26%;
+
+    }
+    .video-container >button{
+        margin-top: 40%;
+    }
+
+
+}
+@media screen and (max-width:468px){
+    .video-container > h1{
+        margin-top:25%;
+        font-size: 50px;
+    
+        
+    }
+
+    .video-container > p{
+        font-size: 22px;
+        margin-top:26%;
+
+    }
+    .video-container >button{
+        margin-top: 40%;
+    }
+
+
+}
+
+@media screen and (min-width:1024px){
+    .video-container > button{
+        font-size: 1.5rem;
+    }
+}

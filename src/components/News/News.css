@@ -1,0 +1,35 @@
+.news-container{
+
+
+
+margin-top: 100px;
+padding-top: 5  px;
+max-width: 1000px;
+margin:0 auto;
+
+}
+
+.left-container{
+    background-color: yellow;
+    height: 5000px;
+    position: absolute;
+    float: left;
+    width: 100%;
+    border: 10px purple solid;
+
+}
+
+@media screen and  (max-width:670px){
+    .left-container{
+        display: none;
+    }
+ 
+    
+}
+@media screen and (max-width:468px){
+    .left-container{
+        display: none;
+    }
+ 
+    
+}
